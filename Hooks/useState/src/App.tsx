@@ -13,7 +13,7 @@ function App() {
   };
 
   return (
-    <div>
+    <div style={{textAlign: "center"}}>
       <h1>
         My primary color is <span style={{color: color}}>{color}</span>
       </h1>
