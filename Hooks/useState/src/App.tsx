@@ -1,4 +1,5 @@
 import { useState } from "react";
+// import Uf from "./Uf";
 
 function App() {
   const [color, setColor] = useState("red");
@@ -13,9 +14,9 @@ function App() {
   };
 
   return (
-    <div style={{textAlign: "center"}}>
+    <div style={{ textAlign: "center" }}>
       <h1>
-        My primary color is <span style={{color: color}}>{color}</span>
+        My primary color is <span style={{ color: color }}>{color}</span>
       </h1>
 
       <button style={btnStyle} onClick={() => setColor("blue")}>

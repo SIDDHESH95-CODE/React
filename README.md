@@ -2,15 +2,16 @@
 
 ## Tier 1 — Absolutely must know
 
-1. [] Props
-2. [] State & State Management
+1. [✅] Props
+2. [✅] State & State Management
 3. [] Hooks
-    - [] useState
-    - [] useEffect
-    - [] useRef
-    - [] useMemo
-    - [] useCallback
-    - [] useContext
+    - [] useState:  🧠 Memory
+    - [] useEffect: ⚡ Reaction
+    - [] useRef:    📦 Persistent box
+    - [] useMemo:   🧮 Cached result
+    - [] useCallback:   📌 Saved function
+    - [] useContext:    📢 Common information
+    - [] useReducer:    🏭 State manager/rules
 4. [] Forms
     - [] Controlled/uncontrolled components
     - [] Validation
